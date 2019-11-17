@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1059891225920",
+    "firebase_url": "https://english-practice-63908.firebaseio.com",
+    "project_id": "english-practice-63908",
+    "storage_bucket": "english-practice-63908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059891225920:android:854eff9e7ffeae02",
+        "android_client_info": {
+          "package_name": "com.fsit.englishpractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059891225920-8s8ri5hsg19ofbg8e4fj2qosbkiip33s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fsit.englishpractice",
+            "certificate_hash": "63f2a1770c442aaed1dc41d6c6697be8f49eef98"
+          }
+        },
+        {
+          "client_id": "1059891225920-uq0uru0pm0sjgbeob7vfb01dv4mijf09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiytXSJxtqzy3fmII2J6iVWVLOvTVJscQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059891225920-uq0uru0pm0sjgbeob7vfb01dv4mijf09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="400dp"
+    android:background="@drawable/bgdailog"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/chader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/tvtoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Quiz:100"
+        android:textSize="21dp"
+        android:textColor="#E7D8D8"
+        android:gravity="center"
+        android:layout_below="@+id/chader"
+        android:layout_marginTop="40dp"
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/j"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:id="@+id/tvcorrct"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="correct"
+            android:textSize="17dp"
+            android:drawableLeft="@drawable/correct_24dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#E7D8D8"
+            />
+        <TextView
+            android:id="@+id/tvwrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wrong"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/wrong_24dp"
+            android:textColor="#E7D8D8"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EB9B22"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="Back To Quiz"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_margin="20dp"
+        />
+
+
+</RelativeLayout>

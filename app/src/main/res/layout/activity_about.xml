@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bggradient"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/afirstte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Practice English"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/fulltext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" An official English learning app powered by some innovative minded people.\n\n\'\' Practice makes a man perfect\'\' \n\nWe believe your every single try and hope that by our latest guide you will be gainer one day.\n\nBut you must be regular on our app for maximum output as possible.\n\nIf you find any error or anything else don't hesitate to contact with us.\n"
+                android:textColor="#fff"
+                android:padding="15dp"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                android:layout_marginTop="25dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="#E7D5D5"
+                android:text="Contact us:"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:layout_above="@id/fsitgmail"
+                />
+            <TextView
+                android:id="@+id/fsitgmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#E7D5D5"
+                android:text="homedecoration009@gmail.com"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="35dp"
+                />
+        </LinearLayout>
+</androidx.core.widget.NestedScrollView>
